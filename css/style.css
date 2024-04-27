@@ -1,0 +1,23 @@
+body{
+    display: flex;
+}
+
+
+.nav__item__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav__items{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.nav__items__two{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
