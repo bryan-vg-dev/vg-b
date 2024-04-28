@@ -32,6 +32,10 @@ button{
     padding: 7px;
 }
 
+span{
+    color: #B201FF;
+}
+
 .b__contactme{
     background-color: #B201FF;
     border: none;
