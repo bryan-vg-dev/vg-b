@@ -1,79 +1,66 @@
-*, *:before, *:after {
-    box-sizing: inherit;
+:root{
+    --marrow-000: #FFFBF2;
+	--marrow-050: #ffeecc;
+    --marrow-100: #ffe6b3;
+    --marrow-150: #ffdd99;
+    --marrow-200: #ffd480;
+    --marrow-250: #ffcc66;
+    --marrow-300: #ffc34d;
+    --marrow-350: #ffbb33;
+    --marrow-400: #ffb31a;
+    --marrow-450: #ffaa00;
+    --marrow-500: #e69900;
+
+	
+    --violet-050: #d980ff;
+    --violet-100: #d166ff;
+    --violet-150: #c94dff;
+    --violet-200: #c233ff;
+    --violet-250: #ba1aff;
+    --violet-300: #b201ff;
+    --violet-350: #a100e6;
+    --violet-400: #8f00cc;
+    --violet-450: #7d00b3;
+    --violet-500: #6b0099;
+    --violet-600: #2F0043;
+
+
+    --black-050: #a6a6a6;
+    --black-100: #999999;
+    --black-150: #8c8c8c;
+    --black-200: #808080;
+    --black-250: #737373;
+    --black-300: #666666;
+    --black-350: #595959;
+    --black-400: #4d4d4d;
+    --black-450: #404040;
+    --black-500: #333333;
+    --black-550: #262626;
+    --black-600: #1a1a1a;
 }
 
-
-hmtl{
+html{
     box-sizing: border-box;
+    height: 100%;
+    width: 100%;
 }
 
 body{
-    display: flex;
-    font-family:monospace;
-}
-
-main{
-    background-color: var(--marrow-000);
-    padding: 0px 20px;
-}
-
-ul{
-    border-bottom: solid;
-}
-
-li > a{
-    font-size: 20px;
-}
-
-button{
-    border-radius: 30px;
-    padding: 7px;
-}
-
-span{
-    color: var(--violet-300);
-}
-
-.b__contactme{
-    background-color: var(--violet-300);
-    border: none;
-    color: white;
-}
-
-.b__hireme{
-    color: white;
-    background-color: #B201FF;
-    border: none;
-    border: solid 2.5px;
-    border-color: var(--violet-300);
-}
-
-.b__visitmy{
-    background-color: whitesmoke;
-    border: 2.5px solid;
-    border-color: var(--violet-300);
-}
-
-.nav__item__content{
-    padding: 10px 0px 10px 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.nav__items{
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
-}
-
-.nav__items__two{
-    display: flex;
-    justify-content: space-between;
-    width: 150px;
-    margin: 0px 15px 0px 0px ;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 850px;
+    font-family: sans-serif, monospace;
 }
 
 li{
-    margin: 0px 10px;
+    list-style: none;
 }
+
+nav>ul{
+    display: flex;
+}
+li{
+    margin: 0 10px 0 5px;
+}
+
