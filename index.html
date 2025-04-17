@@ -4,41 +4,57 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=7">
-    <meta name="description" content="personal information">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="information about Bryan Valdes Garcia, projects, services and skills">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>BVG-Dev</title>
 </head>
 <body>
-    <main>
+    <main class=".container">
         <header>
             <nav>
                 <ul>
-                    <li><strong>Home</strong></li>
-                    <li><strong>Projects</strong></li>
-                    <li><strong>Services</strong></li>
-                    <li><strong>Skills</strong></li>
-                    <li><strong>About</strong></li>
+                    <li><a href="#home"><strong>Home</strong></a></li>
+                    <li><a href="#projects"><strong>Projects</strong></a></li>
+                    <li><a href="#services"><strong>Services</strong></a></li>
+                    <li><a href="#skills"><strong>Skills</strong></a></li>
+                    <li><a href="#skills"><strong>About</strong></a></li>
                     <li><button>Contact</button></li>
                 </ul>
             </nav>
         </header>
+
         <section id="home">
             <div class="presentation">
-                <h1>Hello! my name is <span>Bryan Valdes Garcia<span></h1>
-                <h2>I'am a <span>Frontend</span> developer</h2>
-            </div>
+                <hgroup class="first-hgroup">
+                    <h1> <span class="font-light">Hello! my name is</span> <br>Bryan Valdes Garcia</h1>
+                    <h2>I'am a <span class="">Frontend</span> developer</h2>
+                </hgroup>
+            </div> 
             <div>
             <button>Contact</button> 
             <button>Resume</button>
             </div>
         </section>
+
+
         <section id="projects">
-            <h3>GEOMETRIC HERO</h3>
-            <p>This my most "beatifull" creation. I make* this thinking on me a few years ago. 
-                Matematics always was a little problem to me, specialy geometric and this is 
-                the solution to all this problems.
-            </p>
+
+            <h2>Welcome to my projects list</h2> 
+
+            <article class="geometric-hero">
+                <h3>GEOMETRIC HERO</h3>
+                <!-- buena practica <p><img src="spoon.png" alt="spoon illustration"> Your pal, Jen at Jen's Kitchen</p>-->
+                <p>This my most "beatifull" creation. I make* this thinking on me a few years ago. 
+                    Matematics always was a little problem to me, specialy geometric and this is 
+                    the solution to all this problems.
+                </p>
+            </article>
+            
         </section>
+
+        <footer>
+            <small>Copyright 2018, Bryan Valdes Garcia</small>
+        </footer> 
     </main>
 </body>
 </html>
